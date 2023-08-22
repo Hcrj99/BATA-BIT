@@ -31,7 +31,6 @@ html {
     font-family: var(--Dm-sans);
 }
 
-/*----POSITION + BOX MODEL-----*/
 header {
     position: relative;
     display: flex;
@@ -41,6 +40,7 @@ header {
     min-width: 320px;
     height: 334px;
     text-align: center;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
 }
 
 header img {
@@ -60,12 +60,35 @@ header img {
     align-self: center;
 }
 
-.header--button {
-
+.header--title-container .header--button {
+    position: absolute;/*allows to move on top right left and button*/
+    left: calc(50% - 114px);/*45.5px;*/
+    top: 270px;
+    display: block;
+    margin-top: 32px;
+    padding: 12px;
+    width: 229px;
+    height: 48px;
+    background-color:var(--off-white); 
+    border: none;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--black);
+    /*Shades*/
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16); 
 }
 
+.header--button span {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url("../assets/icons/down-arrow.svg");
+    background-repeat: no-repeat;
+}
 
-/*----TYPOGRAPHY----*/
 .header--title-container h1 {
     color: var(--just-white);
     font-size: 2.4rem;
@@ -81,10 +104,3 @@ header img {
     margin-top: 24px;
 }
 
-
-/*----VISUAL THEME STYLES----*/
-header {
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
-}
-
-/*----OTHERS------*/
