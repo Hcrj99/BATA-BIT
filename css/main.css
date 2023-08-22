@@ -51,7 +51,7 @@ header img {
     margin-bottom: 33px;
 }
 
-.header--title-container {
+.header__title-container {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
@@ -60,7 +60,7 @@ header img {
     align-self: center;
 }
 
-.header--title-container .header--button {
+.header__title-container .header__button {
     position: absolute;/*allows to move on top right left and button*/
     left: calc(50% - 114px);/*45.5px;*/
     top: 270px;
@@ -80,7 +80,7 @@ header img {
     box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16); 
 }
 
-.header--button span {
+.header__button span {
     display: inline-block;
     width: 13px;
     height: 8px;
@@ -89,14 +89,14 @@ header img {
     background-repeat: no-repeat;
 }
 
-.header--title-container h1 {
+.header__title-container h1 {
     color: var(--just-white);
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 2.6rem;/*height dimension*/
 }
 
-.header--title-container p {
+.header__title-container p {
     color: var(--soft-orange);
     font-weight: 500;
     line-height: 1.8rem;
@@ -112,7 +112,7 @@ main {
     background-color: var(--off-white);
 }
 
-.main--exchange-container {
+.main__exchange-container {
     width: 100%;
     height: auto;
     padding-top: 40px;
@@ -120,14 +120,14 @@ main {
     text-align: center;
 }
 
-.main--exchange-container--title {
+.main__exchange-container--title {
     width: 90%;
     min-width: 288px;
     max-width: 900px;
     margin: 0 auto;
 }
 
-.main--exchange-container .backgroundImg {
+.main__exchange-container .backgroundImg {
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -138,7 +138,7 @@ main {
     background-position: center;
 }
 
-.main--exchange-container--title h2 {
+.main__exchange-container--title h2 {
     width: 288px;
     height: 52px;
     font-weight: bold;
@@ -148,7 +148,7 @@ main {
     color: var(--black);
 }
 
-.main--exchange-container--title p {
+.main__exchange-container--title p {
     width: 288px;
     height: 52px;
     margin-top: 24px;
@@ -159,6 +159,6 @@ main {
     color: #757575;
 }
 
-.main--tables-container {
+.main__tables-container {
 
 }
