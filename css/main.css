@@ -1,3 +1,25 @@
+/*
+Relacion de temas
+1. posicionamiento
+2. modelo de caja (Box model)
+3. Tipografia
+4. Estilos con temas visuales
+5. Miscelaneos u otros
+*/
+:root{
+    --bitcoin-orange: #f7931a;
+    --soft-orange: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+    --Dm-sans: "DM Sans", sans-serif;
+    --Inter: "Inter", sans-serif;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,4 +28,5 @@
 
 .html {
     font-size: 62.5%;
+    font-family: var(--Dm-sans);
 }
