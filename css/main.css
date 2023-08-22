@@ -1,10 +1,10 @@
 /*
-Relacion de temas
-1. posicionamiento
-2. modelo de caja (Box model)
-3. Tipografia
-4. Estilos con temas visuales
-5. Miscelaneos u otros
+struct
+1 .Positioning
+2 .Box model
+3. Typography
+4. Visual theme styles
+5. Miscellaneous or other
 */
 :root{
     --bitcoin-orange: #f7931a;
@@ -30,3 +30,16 @@ Relacion de temas
     font-size: 62.5%;
     font-family: var(--Dm-sans);
 }
+
+/*----POSITION-----*/
+
+
+/*----BOX MODEL-----*/
+
+
+/*----TYPOGRAPHY----*/
+
+
+/*----VISULA THEME STYLES----*/
+
+/*----OTHERS------*/
