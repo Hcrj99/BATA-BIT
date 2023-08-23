@@ -174,7 +174,7 @@ main {
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
-    margin-right: 30%;
+    margin-right: 40%;
     color: var(--bitcoin-orange);
 }
 
@@ -193,8 +193,8 @@ main {
 
 .currency-table__container td {
     width: 50%;
+    text-align: center;
     font-size: 1.6rem;
-    font-weight: 500px;
     line-height: 1.9rem;
     color: var(--grey);
     background-color: var(--just-white);
@@ -242,6 +242,84 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.currency-table__container .currency-table-date {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 24px;
+}
+
+.Second__currency-table {
+    width:  70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: var(--Inter);
+}
+
+.Second__currency-table--title {
+    font-family: var(--Dm-sans);
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    margin-right: 40%;
+    margin-top: 28px;
+    color: var(--secondary-blue);
+}
+
+.Second-table__container {
+    margin-top: 23px;
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.Second-table__container table {
+    width: 100%;
+    height: 100%;
+}
+
+.Second-table__container td {
+    width: 50%;
+    text-align: center;
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    color: var(--grey);
+    background-color: var(--just-white);
+}
+
+.Second-table__container .stable--top-left {
+    border-radius: 15px 0 0 0;
+}
+
+.Second-table__container .stable--top-right {
+    border-radius: 0 15px 0 0;
+}
+
+.Second-table__container .stable--botton-left {
+    border-radius: 0 0 0 15px;
+}
+
+.Second-table__container .stable--botton-rigth {
+    border-radius: 0 0 15px 0;
+}
+
+.Second-table__container .stable--right {
+    font-family: var(--Inter);
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+
+.Second-table-date {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 24px;
 }
 
 
