@@ -448,3 +448,34 @@ main {
     line-height: 2.6rem;
     color: var(--just-white);
 }
+
+.main-plans__contanier {
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.main-plans__title {
+    width: 95%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.main-plans__contanier h2 {
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    margin-bottom: 24px;
+    color: var(--warm-black);
+}
+
+.main-plans__contanier p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    margin-bottom: 35px;
+    color: #757575;
+}
