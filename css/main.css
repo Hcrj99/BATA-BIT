@@ -497,7 +497,7 @@ main {
     position: absolute;
     width: 120px;
     height: 31px;
-    left: calc(50% - 60px);
+    left: calc(50% - 50px);
     top: -15px;
     font-size: 1.2rem;
     padding: 6px;
