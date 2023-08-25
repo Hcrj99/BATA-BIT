@@ -482,6 +482,7 @@ main {
 
 .main__plans-block {
     position: relative;
+    scroll-snap-align: center;
     width: 70%;
     min-width: 230px;
     max-width: 300px;
@@ -560,4 +561,13 @@ main {
     vertical-align: text-bottom;
     display: inline-block;
     content: url('../assets/icons/orange-right-arrow.svg');
+}
+
+.main__plans--slider {
+    display: flex;
+    gap: 20px;
+    height: 316px;
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
 }
