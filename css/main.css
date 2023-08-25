@@ -386,6 +386,8 @@ main {
     width: 90%;
     min-width: 288px;
     height: auto;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 .main__product-card--card {
@@ -394,6 +396,7 @@ main {
     min-width: 288px;
     max-width: 400px;
     height: 152px;
+    margin: 15px auto;
     padding: 15px;
     background-color: #282623;
     border-radius: 5px;
