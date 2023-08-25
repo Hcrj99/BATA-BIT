@@ -1,8 +1,4 @@
-# Responsive design
-Curso de responsive design: mobile first - pagina real  para un dispositivo mobil 
+Curso de responsive design: mobile first - pagina real de una empresa bata-bit  para el diseño web con responsive design desde un dispositivo mobil hasta una laptop, la pagina web completa puede ser visualizada mediante el siguiente enlace:
 
-La recomendacion es la siguiente es:
 
-    .jpg para fotos
-    .gif para ilustraciones
-    .svg y png para iconos o logos
+https://hcrj99.github.io/Bata_bit/
